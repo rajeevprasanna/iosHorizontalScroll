@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		027006C618D19647004DAC2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027006C518D19647004DAC2B /* Foundation.framework */; };
+		027006C818D19647004DAC2B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027006C718D19647004DAC2B /* CoreGraphics.framework */; };
+		027006CA18D19647004DAC2B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027006C918D19647004DAC2B /* UIKit.framework */; };
+		027006D018D19647004DAC2B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 027006CE18D19647004DAC2B /* InfoPlist.strings */; };
+		027006D218D19647004DAC2B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 027006D118D19647004DAC2B /* main.m */; };
+		027006D618D19647004DAC2B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 027006D518D19647004DAC2B /* AppDelegate.m */; };
+		027006D918D19647004DAC2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 027006D718D19647004DAC2B /* Main.storyboard */; };
+		027006DC18D19647004DAC2B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 027006DB18D19647004DAC2B /* ViewController.m */; };
+		027006DE18D19647004DAC2B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 027006DD18D19647004DAC2B /* Images.xcassets */; };
+		027006E518D19647004DAC2B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027006E418D19647004DAC2B /* XCTest.framework */; };
+		027006E618D19647004DAC2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027006C518D19647004DAC2B /* Foundation.framework */; };
+		027006E718D19647004DAC2B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027006C918D19647004DAC2B /* UIKit.framework */; };
+		027006EF18D19647004DAC2B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 027006ED18D19647004DAC2B /* InfoPlist.strings */; };
+		027006F118D19647004DAC2B /* HorizontalScrollTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 027006F018D19647004DAC2B /* HorizontalScrollTests.m */; };
+		027006FC18D1973F004DAC2B /* MyCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 027006FB18D1973F004DAC2B /* MyCollectionViewFlowLayout.m */; };
+		027006FE18D1976C004DAC2B /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 027006FD18D1976C004DAC2B /* MyCollectionViewCell.xib */; };
+		0270070118D197CE004DAC2B /* MyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0270070018D197CE004DAC2B /* MyCollectionViewCell.m */; };
+		0270070318D198FB004DAC2B /* 079aaac.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0270070218D198FB004DAC2B /* 079aaac.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		027006E818D19647004DAC2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 027006BA18D19647004DAC2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 027006C118D19647004DAC2B;
+			remoteInfo = HorizontalScroll;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		027006C218D19647004DAC2B /* HorizontalScroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HorizontalScroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		027006C518D19647004DAC2B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		027006C718D19647004DAC2B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		027006C918D19647004DAC2B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		027006CD18D19647004DAC2B /* HorizontalScroll-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HorizontalScroll-Info.plist"; sourceTree = "<group>"; };
+		027006CF18D19647004DAC2B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		027006D118D19647004DAC2B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		027006D318D19647004DAC2B /* HorizontalScroll-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HorizontalScroll-Prefix.pch"; sourceTree = "<group>"; };
+		027006D418D19647004DAC2B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		027006D518D19647004DAC2B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		027006D818D19647004DAC2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		027006DA18D19647004DAC2B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		027006DB18D19647004DAC2B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		027006DD18D19647004DAC2B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		027006E318D19647004DAC2B /* HorizontalScrollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HorizontalScrollTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		027006E418D19647004DAC2B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		027006EC18D19647004DAC2B /* HorizontalScrollTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HorizontalScrollTests-Info.plist"; sourceTree = "<group>"; };
+		027006EE18D19647004DAC2B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		027006F018D19647004DAC2B /* HorizontalScrollTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HorizontalScrollTests.m; sourceTree = "<group>"; };
+		027006FA18D1973F004DAC2B /* MyCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		027006FB18D1973F004DAC2B /* MyCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		027006FD18D1976C004DAC2B /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCollectionViewCell.xib; sourceTree = "<group>"; };
+		027006FF18D197CE004DAC2B /* MyCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewCell.h; sourceTree = "<group>"; };
+		0270070018D197CE004DAC2B /* MyCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewCell.m; sourceTree = "<group>"; };
+		0270070218D198FB004DAC2B /* 079aaac.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 079aaac.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		027006BF18D19647004DAC2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				027006C818D19647004DAC2B /* CoreGraphics.framework in Frameworks */,
+				027006CA18D19647004DAC2B /* UIKit.framework in Frameworks */,
+				027006C618D19647004DAC2B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		027006E018D19647004DAC2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				027006E518D19647004DAC2B /* XCTest.framework in Frameworks */,
+				027006E718D19647004DAC2B /* UIKit.framework in Frameworks */,
+				027006E618D19647004DAC2B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		027006B918D19647004DAC2B = {
+			isa = PBXGroup;
+			children = (
+				027006CB18D19647004DAC2B /* HorizontalScroll */,
+				027006EA18D19647004DAC2B /* HorizontalScrollTests */,
+				027006C418D19647004DAC2B /* Frameworks */,
+				027006C318D19647004DAC2B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		027006C318D19647004DAC2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				027006C218D19647004DAC2B /* HorizontalScroll.app */,
+				027006E318D19647004DAC2B /* HorizontalScrollTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		027006C418D19647004DAC2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				027006C518D19647004DAC2B /* Foundation.framework */,
+				027006C718D19647004DAC2B /* CoreGraphics.framework */,
+				027006C918D19647004DAC2B /* UIKit.framework */,
+				027006E418D19647004DAC2B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		027006CB18D19647004DAC2B /* HorizontalScroll */ = {
+			isa = PBXGroup;
+			children = (
+				027006D418D19647004DAC2B /* AppDelegate.h */,
+				027006D518D19647004DAC2B /* AppDelegate.m */,
+				027006FA18D1973F004DAC2B /* MyCollectionViewFlowLayout.h */,
+				027006FB18D1973F004DAC2B /* MyCollectionViewFlowLayout.m */,
+				0270070218D198FB004DAC2B /* 079aaac.jpg */,
+				027006D718D19647004DAC2B /* Main.storyboard */,
+				027006FD18D1976C004DAC2B /* MyCollectionViewCell.xib */,
+				027006FF18D197CE004DAC2B /* MyCollectionViewCell.h */,
+				0270070018D197CE004DAC2B /* MyCollectionViewCell.m */,
+				027006DA18D19647004DAC2B /* ViewController.h */,
+				027006DB18D19647004DAC2B /* ViewController.m */,
+				027006DD18D19647004DAC2B /* Images.xcassets */,
+				027006CC18D19647004DAC2B /* Supporting Files */,
+			);
+			path = HorizontalScroll;
+			sourceTree = "<group>";
+		};
+		027006CC18D19647004DAC2B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				027006CD18D19647004DAC2B /* HorizontalScroll-Info.plist */,
+				027006CE18D19647004DAC2B /* InfoPlist.strings */,
+				027006D118D19647004DAC2B /* main.m */,
+				027006D318D19647004DAC2B /* HorizontalScroll-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		027006EA18D19647004DAC2B /* HorizontalScrollTests */ = {
+			isa = PBXGroup;
+			children = (
+				027006F018D19647004DAC2B /* HorizontalScrollTests.m */,
+				027006EB18D19647004DAC2B /* Supporting Files */,
+			);
+			path = HorizontalScrollTests;
+			sourceTree = "<group>";
+		};
+		027006EB18D19647004DAC2B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				027006EC18D19647004DAC2B /* HorizontalScrollTests-Info.plist */,
+				027006ED18D19647004DAC2B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		027006C118D19647004DAC2B /* HorizontalScroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 027006F418D19647004DAC2B /* Build configuration list for PBXNativeTarget "HorizontalScroll" */;
+			buildPhases = (
+				027006BE18D19647004DAC2B /* Sources */,
+				027006BF18D19647004DAC2B /* Frameworks */,
+				027006C018D19647004DAC2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HorizontalScroll;
+			productName = HorizontalScroll;
+			productReference = 027006C218D19647004DAC2B /* HorizontalScroll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		027006E218D19647004DAC2B /* HorizontalScrollTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 027006F718D19647004DAC2B /* Build configuration list for PBXNativeTarget "HorizontalScrollTests" */;
+			buildPhases = (
+				027006DF18D19647004DAC2B /* Sources */,
+				027006E018D19647004DAC2B /* Frameworks */,
+				027006E118D19647004DAC2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				027006E918D19647004DAC2B /* PBXTargetDependency */,
+			);
+			name = HorizontalScrollTests;
+			productName = HorizontalScrollTests;
+			productReference = 027006E318D19647004DAC2B /* HorizontalScrollTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		027006BA18D19647004DAC2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = rajeev;
+				TargetAttributes = {
+					027006E218D19647004DAC2B = {
+						TestTargetID = 027006C118D19647004DAC2B;
+					};
+				};
+			};
+			buildConfigurationList = 027006BD18D19647004DAC2B /* Build configuration list for PBXProject "HorizontalScroll" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 027006B918D19647004DAC2B;
+			productRefGroup = 027006C318D19647004DAC2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				027006C118D19647004DAC2B /* HorizontalScroll */,
+				027006E218D19647004DAC2B /* HorizontalScrollTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		027006C018D19647004DAC2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				027006DE18D19647004DAC2B /* Images.xcassets in Resources */,
+				027006D018D19647004DAC2B /* InfoPlist.strings in Resources */,
+				0270070318D198FB004DAC2B /* 079aaac.jpg in Resources */,
+				027006FE18D1976C004DAC2B /* MyCollectionViewCell.xib in Resources */,
+				027006D918D19647004DAC2B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		027006E118D19647004DAC2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				027006EF18D19647004DAC2B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		027006BE18D19647004DAC2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				027006DC18D19647004DAC2B /* ViewController.m in Sources */,
+				027006D618D19647004DAC2B /* AppDelegate.m in Sources */,
+				027006FC18D1973F004DAC2B /* MyCollectionViewFlowLayout.m in Sources */,
+				027006D218D19647004DAC2B /* main.m in Sources */,
+				0270070118D197CE004DAC2B /* MyCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		027006DF18D19647004DAC2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				027006F118D19647004DAC2B /* HorizontalScrollTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		027006E918D19647004DAC2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 027006C118D19647004DAC2B /* HorizontalScroll */;
+			targetProxy = 027006E818D19647004DAC2B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		027006CE18D19647004DAC2B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				027006CF18D19647004DAC2B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		027006D718D19647004DAC2B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				027006D818D19647004DAC2B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		027006ED18D19647004DAC2B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				027006EE18D19647004DAC2B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		027006F218D19647004DAC2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		027006F318D19647004DAC2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		027006F518D19647004DAC2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HorizontalScroll/HorizontalScroll-Prefix.pch";
+				INFOPLIST_FILE = "HorizontalScroll/HorizontalScroll-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		027006F618D19647004DAC2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HorizontalScroll/HorizontalScroll-Prefix.pch";
+				INFOPLIST_FILE = "HorizontalScroll/HorizontalScroll-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		027006F818D19647004DAC2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HorizontalScroll.app/HorizontalScroll";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HorizontalScroll/HorizontalScroll-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HorizontalScrollTests/HorizontalScrollTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		027006F918D19647004DAC2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HorizontalScroll.app/HorizontalScroll";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HorizontalScroll/HorizontalScroll-Prefix.pch";
+				INFOPLIST_FILE = "HorizontalScrollTests/HorizontalScrollTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		027006BD18D19647004DAC2B /* Build configuration list for PBXProject "HorizontalScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				027006F218D19647004DAC2B /* Debug */,
+				027006F318D19647004DAC2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		027006F418D19647004DAC2B /* Build configuration list for PBXNativeTarget "HorizontalScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				027006F518D19647004DAC2B /* Debug */,
+				027006F618D19647004DAC2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		027006F718D19647004DAC2B /* Build configuration list for PBXNativeTarget "HorizontalScrollTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				027006F818D19647004DAC2B /* Debug */,
+				027006F918D19647004DAC2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 027006BA18D19647004DAC2B /* Project object */;
+}
